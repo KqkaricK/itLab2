@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ну сайт</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+	<script src="script.js"></script>
+	<div id="date" align="center">Дата</div>
+	<p>Даже в современном мире трудно представить, как работает планетарная система. Она состоит из различных
+		астрономических объектов: планет, спутников, астероидов, которые обращаются вокруг звезды. Чтобы лучше понять
+		планетарную систему, нужна ее визуализация. Трехмерная графика считается незаменимым средством для демонстрации
+		разных систем. Именно трехмерные модели наглядно показывают все особенности объекта, а также влияние на другие
+		объекты. На основании вышеизложенного можно считать актуальной задачу разработки приложения, которое позволит
+		смоделировать планетарную систему.</p>
+	<div id="element" class="AttachOnMouseOutText" onMouseOver="highlightBG();return true;" onMouseOut="highlightOutBG();return true;">Наведи на меня</div>	
+	<h2 align="center">Это загловок поменьше</h2>
+	<div align="center">
+		<img src="image.jpg" height="150" onclick="changeSizeImage(this)" alt="клик для увеличения" />
+	</div>
+	<table border="10" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<th colspan=2>Шапка</th>
+		</tr>
+		<tr>
+			<th width="10%">Колонка Раз</th>
+			<th width="50%">Колонка Два</th>
+		</tr>
+		<tr>
+			<td>
+				<ul>
+					<li><a href="https://google.ru" title="Гугол">Гугол</a></li>
+					<li><a href="https://yandex.ru" title="Яндекс">Яндекс</a></li>
+					<li><a href="https://mail.ru" title="Майл">Майл</a></li>
+				</ul>
+			</td>
+			<td>
+				<ol>
+					<li>Текст номер раз</li>
+					<li>Текст номер два</li>
+					<li>Текст номер три</li>
+				</ol>
+			</td>
+		</tr>
+	</table>
+	<form>
+		<ul>
+			<li>
+				<label for="mail">E-mail:</label>
+				<input type="email" id="mail" name="user_mail" />
+			</li>
+			<li>
+				<label for="msg">Послание:</label>
+				<textarea id="msg" name="user_message"></textarea>
+			</li>
+			<li class="button">
+				<button type="submit">Отпрвить</button>
+			</li>
+		</ul>
+	</form>
+	<div align="center">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6669.37898873084!2d87.12186524448721!3d53.754215120615676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42d0c0fd14f96793%3A0x89161280a2600397!2z0JPQvtGA0L7QtNGB0LrQvtC5INCf0LDRgNC6INC40LwuINCuLtCQLiDQk9Cw0LPQsNGA0LjQvdCw!5e0!3m2!1sru!2sru!4v1630840472217!5m2!1sru!2sru"
+			width="434" height="410" style="border:0;" allowfullscreen="" loading="lazy">
+		</iframe>
+	</div>
+</body>
+
+</html>
